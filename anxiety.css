@@ -1,0 +1,80 @@
+/* Reset */
+body, h1, h2, p, a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+/* 기본 설정 */
+body {
+    background-color: #d7e4df;
+    font-family: "Pretendard", sans-serif;
+    color: #2c2c2c;
+}
+
+/* 헤더 */
+.header {
+    padding: 50px 20px 20px;
+    text-align: center;
+    position: relative;
+}
+
+.header h1 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.back {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    color: #333;
+    font-size: 17px;
+    transition: opacity .2s;
+}
+
+.back:hover {
+    opacity: 0.5;
+}
+
+/* 메인 */
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 40px 20px 80px;
+}
+
+.main-image {
+    text-align: center;
+}
+
+.main-image img {
+    width: 65%;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.18);
+}
+
+/* 텍스트 영역 */
+.text-content {
+    margin-top: 50px;
+}
+
+.text-content h2 {
+    font-size: 22px;
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+
+.text-content p {
+    line-height: 1.7;
+    font-size: 16px;
+    margin-bottom: 35px;
+}
+
+/* 푸터 */
+.footer {
+    text-align: center;
+    padding: 30px 0;
+    font-size: 14px;
+    opacity: 0.7;
+}

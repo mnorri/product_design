@@ -8,8 +8,8 @@
 body{
     margin: 0;
     font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-    color: #111;
-    background-color: #fff;
+    color: #2c2c2c;
+    background-color: rgb(197, 218, 215);
     line-height: 1.5;
 }
 
@@ -42,7 +42,7 @@ img{
     position: sticky;
     top: 0;
     z-index: 10;
-    background-color: #fff;
+    background-color: #ffffff;
 }
 
 .site-header .inner{
@@ -110,7 +110,7 @@ img{
 .current-item .image-wrap{
     background-color: #f5f5f5;
     overflow: hidden;
-    aspect-ratio: 4 / 3;   /* 비율 고정 (예: 4:3) */
+    aspect-ratio: 4 / 5;   /* 비율 고정 (예: 4:3) */
 }
 
 /* 현재 공통 img 설정을 덮어쓰기 */
@@ -201,7 +201,7 @@ img{
 }
 
 .about-image{
-    background-color: #f5f5f5;
+    background-color: #ffffff;
 }
 
 /* FOOTER */
@@ -238,10 +238,10 @@ img{
 }
 
 .project-item{
-    width: 100%;
+    width: 95%;
     aspect-ratio: 1 / 1; /* 정사각형 */
     overflow: hidden;
-    background-color: #eee;
+    background-color: #bebdbd;
 }
 
 .project-item img{
@@ -289,4 +289,43 @@ img{
     .logo{
         font-size: 24px;
     }
+}
+/*---내가 실습시간에 추가해본 디자인스타일----*/
+
+.site-header{
+    background-color: rgb(197, 218, 210);
+}
+
+.logo{
+    color:white;
+    font-size: 30px;
+}
+
+.inner p strong{
+    font-size: 50px;
+}
+
+.Footer{
+    background-color: rgb(197, 218, 210);
+    padding-left: 400px;
+    height: 450px;
+}
+
+.site-footer{
+    background-color: rgb(197, 218, 210);
+}
+
+p .copyright {
+    padding-left: 400px;
+}
+
+.section-title{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+    color:rgb(16, 80, 107);
+}
+
+.caption{
+    font-size: 13px;
 }
